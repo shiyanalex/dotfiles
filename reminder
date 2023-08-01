@@ -1,0 +1,16 @@
+ln - copy 
+ln -s - copy with connection
+pwd - directory 
+chmod +x - to make executable
+wc - stats about file lines/words/symbols
+
+cat output.txt | tr "[a-z]" "[A-Z]" | tr  " " "_"
+tr 'a-z' 'A-Z' <test.txt> temp.txt && mv temp.txt test.txt
+
+cut -d " " -f 3 output.txt (-c column -b byte -f field -d ca)
+
+ps -f 1 - process 
+
+g++ -std=c++11 1.cpp - making a.out in same directory ./a.out  
+-o name of new file 
+		
